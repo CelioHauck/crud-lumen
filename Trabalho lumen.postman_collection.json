@@ -6,7 +6,8 @@
 		"94a6e18e-807f-b4e0-b413-5fac4dbf69d8",
 		"8a0d2981-8bee-6904-987c-896cadc89120",
 		"0bf812bc-dcc0-41f9-2638-2c1073844ff2",
-		"04c42a4e-0f17-7f7e-3815-05786945a0cc"
+		"04c42a4e-0f17-7f7e-3815-05786945a0cc",
+		"0fe1d040-872c-6fc5-8ab8-15dbf61ae5af"
 	],
 	"folders": [],
 	"folders_order": [],
@@ -87,6 +88,29 @@
 			"description": "",
 			"collectionId": "375c2e33-ff4c-e716-81ce-c69a4e206772",
 			"responses": []
+		},
+		{
+			"id": "0fe1d040-872c-6fc5-8ab8-15dbf61ae5af",
+			"headers": "",
+			"headerData": [],
+			"url": "{{urlBase}}/users/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "375c2e33-ff4c-e716-81ce-c69a4e206772",
+			"data": null,
+			"dataMode": "params",
+			"name": "Buscar por Id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1590958017429,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "8a0d2981-8bee-6904-987c-896cadc89120",

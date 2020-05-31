@@ -18,7 +18,6 @@ class CreateUsuariosTable extends Migration
             $table->string('usuario',60);
             $table->string('email');
             $table->string('senha');
-            $table->boolean('autenticado')->default(false);
             $table->timestamps();
         });
     }

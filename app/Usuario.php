@@ -34,7 +34,7 @@ class Usuario extends Model implements AuthenticatableContract, AuthorizableCont
 
     public function setPasswordAttribute($value)
     {
-        $this->attributes['password'] = Hash::make($value);
+        $this->attributes['senha'] = Hash::make($value);
     }
 
 

@@ -24,29 +24,6 @@ class UsuarioController extends Controller
         $this->jwt = $jwt;
     }
 
-    /*public function login(Request $request)
-    {
-        $this->validate($request, [
-            'email' => 'required|email|max:255',
-            'senha' => 'required'
-        ]);
-
-        $credencial = $request->only('email', 'senha');
-
-        $output = new ConsoleOutput();
-        $teste = password_hash($request->senha, PASSWORD_BCRYPT);
-        $output->writeln($credencial);
-        $output->writeln($teste);
-        $output->writeln(Auth::attempt($credencial) );
-
-        if (!$token = $this->jwt->attempt($credencial)) {
-            return response()->json(['Usuário não encontrado'], 404);
-        }
-
-        return response()->json(compact('token'));
-    }
-    */
-
     public function get()
     {
         return response()->json(Usuario::all());
