@@ -1,0 +1,167 @@
+{
+	"id": "375c2e33-ff4c-e716-81ce-c69a4e206772",
+	"name": "Trabalho lumen",
+	"description": "",
+	"order": [
+		"94a6e18e-807f-b4e0-b413-5fac4dbf69d8",
+		"8a0d2981-8bee-6904-987c-896cadc89120",
+		"0bf812bc-dcc0-41f9-2638-2c1073844ff2",
+		"04c42a4e-0f17-7f7e-3815-05786945a0cc"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1590948662826,
+	"owner": "4092061",
+	"public": false,
+	"requests": [
+		{
+			"id": "04c42a4e-0f17-7f7e-3815-05786945a0cc",
+			"headers": "",
+			"headerData": [],
+			"url": "{{urlBase}}/users/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "375c2e33-ff4c-e716-81ce-c69a4e206772",
+			"data": null,
+			"dataMode": "params",
+			"name": "Deletar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1590950315570,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "0bf812bc-dcc0-41f9-2638-2c1073844ff2",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{urlBase}}/users/6",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "email",
+					"value": "testinho2@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "usuario",
+					"value": "put",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "senha",
+					"value": "129sad",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1590956304013,
+			"name": "Editar",
+			"description": "",
+			"collectionId": "375c2e33-ff4c-e716-81ce-c69a4e206772",
+			"responses": []
+		},
+		{
+			"id": "8a0d2981-8bee-6904-987c-896cadc89120",
+			"headers": "",
+			"headerData": [],
+			"url": "{{urlBase}}/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "375c2e33-ff4c-e716-81ce-c69a4e206772",
+			"data": null,
+			"dataMode": "params",
+			"name": "Buscar Todos",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1590950304802,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "94a6e18e-807f-b4e0-b413-5fac4dbf69d8",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{urlBase}}/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "375c2e33-ff4c-e716-81ce-c69a4e206772",
+			"data": [
+				{
+					"key": "usuario",
+					"value": "teste",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "teste@teste.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "senha",
+					"value": "senha123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Salvar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1590950297506,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
